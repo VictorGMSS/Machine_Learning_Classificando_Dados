@@ -1,92 +1,58 @@
-# Machine_Learning_classificando_dados
+# 🤖 Machine Learning: Classificação de Dados
 
-# 🤖 Machine Learning: Classification Models
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VictorGMSS/Machine_Learning_classificando_dados/blob/main/projeto_inicial_classificacao.ipynb)
 
-Projeto desenvolvido durante meus estudos de Machine Learning, com foco na construção de modelos de classificação para análise e previsão de dados utilizando Python.
-
----
-
-## 🚀 Sobre o Projeto
-
-Este projeto explora o processo completo de desenvolvimento de modelos de classificação, desde a análise exploratória dos dados até o treinamento, avaliação e utilização de modelos para previsão de novos registros.
-
-Também foram aplicadas técnicas de pré-processamento e transformação de variáveis categóricas, etapas essenciais para preparar os dados para algoritmos de Machine Learning.
+Projeto prático desenvolvido durante o curso **"[NOME DO CURSO]"**. O objetivo deste repositório é construir um pipeline completo de **classificação supervisionada**, passando pela exploração e preparação dos dados, treinamento e avaliação de modelos, e uso dos modelos salvos (com **Pickle**) para prever novos registros.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Objetivos do Projeto
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python" height="45"/>
-</p>
-
-### Bibliotecas
-
-* Pandas
-* Plotly
-* Scikit-learn
-* Matplotlib
-* Pickle
+* **Análise Exploratória de Dados (EDA):** Analisar estatisticamente os dados, identificar padrões e avaliar a qualidade da base por meio de visualizações.
+* **Pré-processamento:** Tratar e codificar variáveis categóricas, selecionar atributos e preparar o conjunto de treinamento.
+* **Modelagem:** Treinar algoritmos de classificação, ajustar parâmetros e avaliar os resultados.
+* **Previsão de Novos Dados:** Utilizar o modelo treinado para classificar novos registros.
+* **Persistência de Modelos:** Salvar transformadores e modelos com **Pickle** para reutilização.
 
 ---
 
-## 📚 Conceitos Aplicados
+## 🗂️ Estrutura do Repositório
 
-✔️ Análise exploratória de dados (EDA)
-✔️ Preparação de dados para Machine Learning
-✔️ Transformação de variáveis categóricas
-✔️ Treinamento de modelos de classificação
-✔️ Previsão de novos dados
-✔️ Persistência de modelos com Pickle
+* `projeto_inicial_classificacao.ipynb`: Notebook principal com todo o pipeline de exploração, pré-processamento, modelagem e persistência.
+* `[base_de_dados.csv]`: Base de dados utilizada no projeto. `[PREENCHER: descrição e variável alvo]`
+* `[arquivos .pkl]`: Transformadores e modelo treinado salvos com Pickle. `[PREENCHER: nomes dos arquivos]`
 
 ---
 
-## 🔍 Etapas Desenvolvidas
+## 🛠️ Tecnologias e Bibliotecas Utilizadas
 
-### 1. Exploração dos Dados
-
-* Análise estatística
-* Identificação de padrões
-* Visualização de dados
-* Avaliação da qualidade dos dados
-
-### 2. Pré-processamento
-
-* Tratamento de dados categóricos
-* Encoding de variáveis
-* Seleção de atributos
-* Preparação do conjunto de treinamento
-
-### 3. Modelagem
-
-* Treinamento de algoritmos de classificação
-* Ajuste dos parâmetros do modelo
-* Geração de previsões
-* Avaliação dos resultados
-
-### 4. Persistência
-
-* Salvamento de transformadores
-* Salvamento de modelos treinados
-* Carregamento dos modelos para reutilização
-* Serialização utilizando Pickle
+* **Python 3**
+* **Pandas:** Manipulação e preparação dos dados.
+* **Plotly & Matplotlib:** Criação das visualizações da análise exploratória.
+* **Scikit-Learn:** Pré-processamento, treinamento e avaliação dos modelos de classificação.
+* **Pickle:** Serialização e carregamento de transformadores e modelos treinados.
 
 ---
 
-## 📈 Técnicas de Machine Learning Utilizadas
+## 🚀 Etapas Desenvolvidas no Notebook
 
-* Classificação supervisionada
-* Feature Engineering
-* Encoding de variáveis categóricas
-* Pipeline de transformação de dados
-* Predição de novos registros
-* Persistência de modelos
+1. **Exploração dos Dados:** Carregamento da base (`[PREENCHER]` registros), análise estatística, identificação de padrões, visualização dos dados e avaliação da qualidade.
+2. **Pré-processamento:** Tratamento de dados categóricos, encoding de variáveis, seleção de atributos e preparação do conjunto de treinamento.
+3. **Modelagem:** Treinamento dos algoritmos de classificação (`[PREENCHER: algoritmos]`), ajuste dos parâmetros do modelo, geração de previsões e avaliação dos resultados (`[PREENCHER: métrica e valor]`).
+4. **Persistência e Reutilização:** Salvamento dos transformadores e do modelo treinado com Pickle e carregamento posterior para previsão de novos registros.
 
 ---
 
-## 📌 Objetivo do Projeto
+## 💻 Como Executar
 
-Desenvolver um pipeline completo de classificação de dados, passando pela exploração, preparação, treinamento e utilização de modelos de Machine Learning para realizar previsões de forma estruturada e reproduzível.
+1. **Via Google Colab (Recomendado):** Clique no botão **"Open in Colab"** no topo deste README para abrir e executar o notebook diretamente no navegador sem precisar configurar ambiente local.
+2. **Localmente:**
+```bash
+git clone https://github.com/VictorGMSS/Machine_Learning_classificando_dados.git
+cd Machine_Learning_classificando_dados
+pip install pandas plotly matplotlib scikit-learn jupyter
+jupyter notebook projeto_inicial_classificacao.ipynb
+```
 
 ---
 
