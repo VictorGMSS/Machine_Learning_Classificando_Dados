@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VictorGMSS/Machine_Learning_classificando_dados/blob/main/projeto_inicial_classificacao.ipynb)
 
-Projeto prático desenvolvido durante o curso **"[NOME DO CURSO]"**. O objetivo deste repositório é construir um pipeline completo de **classificação supervisionada**, passando pela exploração e preparação dos dados, treinamento e avaliação de modelos, e uso dos modelos salvos (com **Pickle**) para prever novos registros.
+Projeto prático desenvolvido durante o curso na **"Alura"**. O objetivo deste repositório é construir um pipeline completo de **classificação supervisionada**, passando pela exploração e preparação dos dados, treinamento e avaliação de modelos, e uso dos modelos salvos (com **Pickle**) para prever novos registros.
 
 ---
 
